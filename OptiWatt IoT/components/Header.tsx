@@ -39,7 +39,7 @@ const Header: React.FC<HeaderProps> = ({ currentRoute }) => {
         </a>
 
         {/* Centered Navigation Links for Desktop */}
-        <div className="hidden md:flex items-center space-x-2">
+        <div className="hidden lg:flex items-center space-x-2">
           {navLinks.map((link) => (
             <a 
               key={link.href} 
@@ -59,14 +59,14 @@ const Header: React.FC<HeaderProps> = ({ currentRoute }) => {
         {/* Right-side elements */}
         <div>
           {/* Contact Us Button - Desktop */}
-          <div className="hidden md:flex items-center">
+          <div className="hidden lg:flex items-center">
             <a href="#/contact" onClick={(e) => handleNav(e, '#/contact')} className="inline-block bg-blue-600 text-white font-bold py-3 px-6 rounded-full hover:bg-blue-700 transition duration-300 ease-in-out transform hover:scale-105 text-lg">
               Contact Us
             </a>
           </div>
           
           {/* Mobile Menu Button */}
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <button onClick={() => setIsOpen(!isOpen)} className="text-slate-600 focus:outline-none" aria-label="Toggle menu">
               <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d={isOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16m-7 6h7"} />
@@ -78,7 +78,7 @@ const Header: React.FC<HeaderProps> = ({ currentRoute }) => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-white/95 backdrop-blur-lg">
+        <div className="lg:hidden bg-white/95 backdrop-blur-lg">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col items-center">
             {navLinks.map((link) => (
                <a key={link.href} href={link.href} onClick={(e) => handleMobileNav(e, link.href)} 
