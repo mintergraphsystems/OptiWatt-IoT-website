@@ -29,8 +29,8 @@ const Header: React.FC<HeaderProps> = ({ currentRoute }) => {
 
   return (
     <header className="bg-white/80 backdrop-blur-lg sticky top-0 z-50 border-b border-slate-200">
-      <nav className="container mx-auto px-6 h-20 flex justify-between items-center relative">
-        {/* Logo - Pushed to the left */}
+      <nav className="container mx-auto px-6 h-20 flex justify-between items-center">
+        {/* Logo */}
         <a href="#/" onClick={(e) => handleNav(e, '#/')} className="text-2xl font-bold text-slate-900 flex items-center flex-shrink-0">
           <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 mr-2 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
@@ -39,7 +39,7 @@ const Header: React.FC<HeaderProps> = ({ currentRoute }) => {
         </a>
 
         {/* Centered Navigation Links for Desktop */}
-        <div className="hidden md:flex absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 items-center space-x-2">
+        <div className="hidden md:flex items-center space-x-2">
           {navLinks.map((link) => (
             <a 
               key={link.href} 
@@ -56,20 +56,23 @@ const Header: React.FC<HeaderProps> = ({ currentRoute }) => {
           ))}
         </div>
 
-        {/* Contact Us Button - Pushed to the right */}
-        <div className="hidden md:flex items-center">
-          <a href="#/contact" onClick={(e) => handleNav(e, '#/contact')} className="inline-block bg-blue-600 text-white font-bold py-3 px-6 rounded-full hover:bg-blue-700 transition duration-300 ease-in-out transform hover:scale-105 text-lg">
-            Contact Us
-          </a>
-        </div>
-        
-        {/* Mobile Menu Button */}
-        <div className="md:hidden">
-          <button onClick={() => setIsOpen(!isOpen)} className="text-slate-600 focus:outline-none" aria-label="Toggle menu">
-            <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d={isOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16m-7 6h7"} />
-            </svg>
-          </button>
+        {/* Right-side elements */}
+        <div>
+          {/* Contact Us Button - Desktop */}
+          <div className="hidden md:flex items-center">
+            <a href="#/contact" onClick={(e) => handleNav(e, '#/contact')} className="inline-block bg-blue-600 text-white font-bold py-3 px-6 rounded-full hover:bg-blue-700 transition duration-300 ease-in-out transform hover:scale-105 text-lg">
+              Contact Us
+            </a>
+          </div>
+          
+          {/* Mobile Menu Button */}
+          <div className="md:hidden">
+            <button onClick={() => setIsOpen(!isOpen)} className="text-slate-600 focus:outline-none" aria-label="Toggle menu">
+              <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d={isOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16m-7 6h7"} />
+              </svg>
+            </button>
+          </div>
         </div>
       </nav>
 
