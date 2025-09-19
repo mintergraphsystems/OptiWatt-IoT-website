@@ -28,14 +28,14 @@ const products: Product[] = [
         id: 'atvm',
         title: 'Automatic Ticket Vending Machine',
         description: 'User-friendly, self-service ATVMs with intuitive touchscreens, supporting multiple payment methods for fast ticketing.',
-        imageUrl: 'https://patnapress.com/wp-content/uploads/2025/08/768-512-14981713-515-14981713-1649593987886.jpg',
+        imageUrl: 'https://5.imimg.com/data5/SELLER/Default/2022/9/HE/KZ/LF/12696053/ticket-vending-machines.jpg',
         icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M12 18h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" /></svg>,
     },
     {
         id: 'smc',
-        title: 'Smart Cards (SMC)',
+        title: 'Smart Cards (SMC) Based ATVM',
         description: 'Secure and durable contactless smart cards for seamless access control, ticketing, and payment solutions.',
-        imageUrl: 'https://live.staticflickr.com/3381/3507240760_1a9cb3ba50_b.jpg',
+        imageUrl: 'https://pbs.twimg.com/media/DH_rLVfXsAAF91D.jpg:large',
         icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" /></svg>,
     },
     {
