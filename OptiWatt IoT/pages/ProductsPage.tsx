@@ -28,7 +28,7 @@ const products: Product[] = [
         id: 'atvm',
         title: 'Automatic Ticket Vending Machine',
         description: 'User-friendly, self-service ATVMs with intuitive touchscreens, supporting multiple payment methods for fast ticketing.',
-        imageUrl: 'https://images.tribuneindia.com/cms/gall_content/2015/10/2015_10$largeimg14_Wednesday_2015_003235049.jpg',
+        imageUrl: 'https://patnapress.com/wp-content/uploads/2025/08/768-512-14981713-515-14981713-1649593987886.jpg',
         icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M12 18h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" /></svg>,
     },
     {
@@ -70,7 +70,7 @@ const products: Product[] = [
         id: 'monitor',
         title: 'Industrial Monitor',
         description: 'Robust industrial-grade monitors built to withstand harsh environments and provide reliable performance.',
-        imageUrl: 'https://5.imimg.com/data5/SELLER/Default/2021/4/VB/VG/DZ/18517077/15-6-inch-metal-case-industrial-touch-screen-monitor-500x500.png',
+        imageUrl: 'https://xtronicsapp.com/wp-content/uploads/2021/03/1-78.jpg',
         icon: <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9.75 17.25v3m0 0l-3.75-3.75M9.75 20.25l3.75-3.75M17.25 17.25v3m0 0l-3.75-3.75M17.25 20.25l3.75-3.75M3.75 13.5h16.5M21 5.25H3.75" /></svg>,
     }
 ];
