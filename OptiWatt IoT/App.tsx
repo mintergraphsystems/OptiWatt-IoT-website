@@ -7,7 +7,7 @@ import FeaturesPage from './pages/FeaturesPage';
 import ServicesPage from './pages/ServicesPage';
 import ModelsPage from './pages/ModelsPage';
 import ContactPage from './pages/ContactPage';
-import FloatingActionButtons from './components/FloatingActionButtons';
+// import FloatingActionButtons from './components/FloatingActionButtons';
 import ProductsPage from './pages/ProductsPage';
 
 const App: React.FC = () => {
@@ -51,7 +51,7 @@ const App: React.FC = () => {
         {renderPage()}
       </main>
       <Footer />
-      <FloatingActionButtons />
+{/*       <FloatingActionButtons /> */}
     </div>
   );
 };
