@@ -29,7 +29,8 @@ const Footer: React.FC = () => {
             <p className="text-base text-slate-600 max-w-sm mx-auto md:mx-0">
               Revolutionizing energy efficiency through smart IoT solutions for a sustainable future.
             </p>
-{/*             <div className="flex space-x-5 justify-center md:justify-start mt-6">
+            
+{/*            <div className="flex space-x-5 justify-center md:justify-start mt-6">
               <SocialIcon href="#" label="Twitter">
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.223.085c.645 1.956 2.52 3.375 4.743 3.41A9.87 9.87 0 010 17.53a13.94 13.94 0 007.548 2.212c9.142 0 14.307-7.487 14.307-14.307 0-.218-.005-.436-.013-.652a10.21 10.21 0 002.493-2.583z"></path></svg>
               </SocialIcon>
@@ -39,8 +40,9 @@ const Footer: React.FC = () => {
               <SocialIcon href="#" label="LinkedIn">
                  <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M22.23 0H1.77C.79 0 0 .79 0 1.77v20.46C0 23.21.79 24 1.77 24h20.46c.98 0 1.77-.79 1.77-1.77V1.77C24 .79 23.21 0 22.23 0zM7.06 20.45H3.53V9h3.53v11.45zM5.3 7.5c-1.11 0-2.01-.9-2.01-2.01s.9-2.01 2.01-2.01 2.01.9 2.01 2.01-.9 2.01-2.01 2.01zm15.15 12.95h-3.53V14.8c0-1.34-.02-3.07-1.87-3.07-1.87 0-2.16 1.46-2.16 2.97v5.75h-3.53V9h3.39v1.56h.05c.47-.89 1.62-1.82 3.33-1.82 3.56 0 4.22 2.34 4.22 5.38v6.33z"></path></svg>
               </SocialIcon>
-            </div> */}
-          </div>
+            </div> 
+          </div> */}
+            
 
           {/* Right: Links grid */}
           <div className="md:w-2/3 lg:w-1/2 grid grid-cols-2 gap-8">
