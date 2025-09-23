@@ -62,8 +62,8 @@ const Footer: React.FC = () => {
               <h3 className="text-slate-900 font-semibold mb-4 tracking-wider uppercase">Contact</h3>
               <ul className="space-y-3 text-base">
                   <li><p>746 GF Sec-14, Gurgaon, HR, 122001, IN</p></li>
-                  <li><a href="mailto:contact@optiwattiot.com" className="hover:text-blue-600 transition-colors">contact@optiwattiot.com</a></li>
-                  <li><p>+91 (123) 456-7890</p></li>
+                  <li><a href="mailto:sales@optiwattiot.com" className="hover:text-blue-600 transition-colors">sales@optiwattiot.com</a></li>
+                  <li><p>+91  9667391144</p></li>
               </ul>
             </div>
           </div>
